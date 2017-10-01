@@ -21,8 +21,8 @@ ELSE()
 ENDIF()
 
 
-INCLUDE_DIRECTORIES(${ACMLPATH}gfortran64/include)
-LINK_Directories(${ACMLPATH}gfortran64/lib)
+INCLUDE_DIRECTORIES(${ACMLPATH}/gfortran64/include)
+LINK_Directories(${ACMLPATH}/gfortran64/lib)
 
 
 SET(CUDA_ARCHITECTURE "-arch=sm_20" CACHE STRING "The CUDA architecture to compile for, i.e. -arch=sm_20")
